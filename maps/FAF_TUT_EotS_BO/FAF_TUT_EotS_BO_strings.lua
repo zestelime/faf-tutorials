@@ -21,7 +21,7 @@ MapInfo = {
         vid = 'FAF_TUT_EotS_BO_MapInfo_1.sfd', bank = 'FAF_TUT_EotS_BO_VO', cue = 'FAF_TUT_EotS_BO_MapInfo_1', faction = 'UEF'
     },
     {
-        text = '<LOC FAF_TUT_EotS_BO_MapInfo_2>[{i TrainingOfficer}]: Eye of the Storm is a 10x10km Land/Water map. This map is very versatile in terms of strategy. All types of units can be useful here, Land, Air and Navy are equally strong. For now let\'s take a look at the key features of the map.',
+        text = '<LOC FAF_TUT_EotS_BO_MapInfo_2>[{i TrainingOfficer}]: Eye of the Storm is a 10x10km land and water map. This map is very versatile in terms of strategy. All types of units can be useful here; land, air and navy are equally strong. For now let\'s take a look at the key features of the map.',
         vid = 'FAF_TUT_EotS_BO_MapInfo_2.sfd', bank = 'FAF_TUT_EotS_BO_VO', cue = 'FAF_TUT_EotS_BO_MapInfo_2', faction = 'UEF'
     },
 }
@@ -35,14 +35,14 @@ StartPosition = {
 
 Lamp = {
     {
-        text = '<LOC FAF_TUT_EotS_BO_Lamp>[{i TrainingOfficer}]: This little lamp contains 300 mass, which is a very useful boost to your early economy. There is one in every corner of the map. Hold down Shift+Ctrl to view reclaim numbers.',
+        text = '<LOC FAF_TUT_EotS_BO_Lamp>[{i TrainingOfficer}]: This little lamp, or totem, contains 300 mass, which is a very useful boost to your early economy. There is one in every corner of the map. Hold down Shift and Ctrl to view reclaim numbers.',
         vid = 'FAF_TUT_EotS_BO_Lamp.sfd', bank = 'FAF_TUT_EotS_BO_VO', cue = 'FAF_TUT_EotS_BO_Lamp', faction = 'UEF'
     },
 }
 
 EastPath1 = {
     {
-        text = '<LOC FAF_TUT_EotS_BO_EastPath1>[{i TrainingOfficer}]: The sea is surrounded by small land paths with small arms, which contain some Mass Extractors (mexes) and reclaim. This one leads to the eastern expansion.',
+        text = '<LOC FAF_TUT_EotS_BO_EastPath1>[{i TrainingOfficer}]: The sea is surrounded by small land paths with small arms, which contain Mass Extractors (mexes) and reclaim. This one leads to the eastern expansion.',
         vid = 'FAF_TUT_EotS_BO_EastPath1.sfd', bank = 'FAF_TUT_EotS_BO_VO', cue = 'FAF_TUT_EotS_BO_EastPath1', faction = 'UEF'
     },
 }
@@ -93,7 +93,7 @@ LandFirst = {
 
 ACUMove = {
     {
-        text = '<LOC FAF_TUT_EotS_BO_ACUMove>[{i TrainingOfficer}]: After finishing its build queue, the ACU will move to the east expansion. Secure some Mass Extractors (mexes) and reclaim the big rocks on the way there.',
+        text = '<LOC FAF_TUT_EotS_BO_ACUMove>[{i TrainingOfficer}]: After finishing its build queue, the ACU will move to the eastern expansion. Secure some Mass Extractors (mexes) and reclaim the big rocks on the way there.',
         vid = 'FAF_TUT_EotS_BO_ACUMove.sfd', bank = 'FAF_TUT_EotS_BO_VO', cue = 'FAF_TUT_EotS_BO_ACUMove', faction = 'UEF'
     },
 }
@@ -104,7 +104,7 @@ FactoryQueue = {
         vid = 'FAF_TUT_EotS_BO_FactoryQueue_1.sfd', bank = 'FAF_TUT_EotS_BO_VO', cue = 'FAF_TUT_EotS_BO_FactoryQueue_1', faction = 'UEF'
     },
     {
-        text = '<LOC FAF_TUT_EotS_BO_FactoryQueue_2>[{i TrainingOfficer}]: Changing factory rally points will affect which way the units will leave the factory, you can save some time by exploting that mechanic.',
+        text = '<LOC FAF_TUT_EotS_BO_FactoryQueue_2>[{i TrainingOfficer}]: Changing factory rally points will affect which way the units will leave the factory, you can save some time by exploiting that mechanic.',
         vid = 'FAF_TUT_EotS_BO_FactoryQueue_2.sfd', bank = 'FAF_TUT_EotS_BO_VO', cue = 'FAF_TUT_EotS_BO_FactoryQueue_2', faction = 'UEF'
     },
 }
@@ -146,7 +146,7 @@ FithEngineer = {
 
 EngiAirFactory = {
     {
-        text = '<LOC FAF_TUT_EotS_BO_EngiAirFactory>[{i TrainingOfficer}]: The second Air Factory that is built by the engies builds a queue of 1 Scout and 4 inties. We go for a 4:1 ratio here because you are going to have multiple Air Factories so you will also have enough scouts with a higher ratio.',
+        text = '<LOC FAF_TUT_EotS_BO_EngiAirFactory>[{i TrainingOfficer}]: The second Air Factory that is built by the engies builds a queue of 1 Scout and 4 inties. We go for a ratio of 4:1 here because you are going to have multiple Air Factories so you will also have enough scouts with a higher ratio.',
         vid = 'FAF_TUT_EotS_BO_EngiAirFactory.sfd', bank = 'FAF_TUT_EotS_BO_VO', cue = 'FAF_TUT_EotS_BO_EngiAirFactory', faction = 'UEF'
     },
 }
@@ -210,7 +210,7 @@ EighthEngineer = {
 
 NinethEngineer = {
     {
-        text = '<LOC FAF_TUT_EotS_BO_NinethEngineer>[{i TrainingOfficer}]: Nineth engi will do some more recliaming.',
+        text = '<LOC FAF_TUT_EotS_BO_NinethEngineer>[{i TrainingOfficer}]: Ninth engie will do some more reclaiming.',
         vid = 'FAF_TUT_EotS_BO_NinethEngineer.sfd', bank = 'FAF_TUT_EotS_BO_VO', cue = 'FAF_TUT_EotS_BO_NinethEngineer', faction = 'UEF'
     },
 }
@@ -245,7 +245,7 @@ ThirdAirFactory = {
 
 NavalFactory = {
     {
-        text = '<LOC FAF_TUT_EotS_BO_NavalFactory>[{i TrainingOfficer}]: The Naval Factories only produce Submarines (subs) for now. Build submarines instead of Frigates first because they counter Frigates and Frigates can\'t raid any mexes on EotS. If you manage to kill the naval production of your opponent, you can switch to Frigates for their radar and Anti Air capabilites.',
+        text = '<LOC FAF_TUT_EotS_BO_NavalFactory>[{i TrainingOfficer}]: The Naval Factories only produce Submarines (subs) for now. Build submarines instead of Frigates first because they counter Frigates and Frigates can\'t raid any mexes on Eye of the Storm. If you manage to kill the naval production of your opponent, you can switch to Frigates for their radar and Anti Air capabilites.',
         vid = 'FAF_TUT_EotS_BO_NavalFactory.sfd', bank = 'FAF_TUT_EotS_BO_VO', cue = 'FAF_TUT_EotS_BO_NavalFactory', faction = 'UEF'
     },
 }
